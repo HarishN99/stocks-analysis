@@ -27,13 +27,13 @@ Nearly all the stocks in the dataset for 2017 provided a positive return on inve
 ### Comparision of Analysis Execution Times (Original vs. Refactored)
 
 
-**Refactored Script**
+**Refactored Run Time**
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/94864663/149047164-e77c4bfc-acde-4698-8ba9-36b4243b5428.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/94864663/149047200-c906f109-e567-4fcd-aadd-0ec258f84543.png)
 
 
-**Original Script**
+**Original Run Time**
 
 ![Old Code 2017](https://user-images.githubusercontent.com/94864663/149047220-e65b5768-4fa4-4e0f-b4bc-1c198e634bce.png)
 ![Old Code 2018](https://user-images.githubusercontent.com/94864663/149047234-76a25d2c-2a61-4421-855a-02b9cd6aaaf3.png)
