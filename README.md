@@ -8,8 +8,6 @@ This analysis was intended to refactor and compare the refactored code with the 
 
 ## Results
 
-Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-
 ### Stock Performance by Year
 
 ![VBA_Challenge_2017_Raw Table](https://user-images.githubusercontent.com/94864663/149045447-3ea4dfcb-d68a-4122-83e2-37d5cb74c220.png) 
@@ -24,7 +22,7 @@ Using images and examples of your code, compare the stock performance between 20
 Nearly all the stocks in the dataset for 2017 provided a positive return on investment which were highlighted green in table 1. The return for TERP was -7.2% which means the stock dropped in value during this year, therefore it is highlighted in red on the table. The best green stocks to invest in during 2017 would be DQ, SEDG, and ENPH. In 2018, most stocks experienced a drop in value as exhibited by the red highlighted cells in table 2. The best stock of 2017, DQ, dropped by nearly 63% in 2018 which is why, based on the data, this stock is not a good investment. SEDG, the second highest return of 2017, experienced a drop of about 8% during 2018. The highest stock return of 2018 was RUN which saw an increase of 84% while it had a return of 5.5 % in year 2017. However, based on these results, the best stock to invest in appears to be ENPH which had the third highest return in 2017 and experienced an increase of about 82% in 2018. 
 
 
-### Comparision of Analysis Execution Times (Original vs. Refactored)
+### Comparision of Analysis Execution Times (Refactored vs. Original)
 
 
 **Refactored Run Time**
@@ -40,7 +38,7 @@ Nearly all the stocks in the dataset for 2017 provided a positive return on inve
 
 The refactored code ran for 0.176 and 0.199 seconds for the years 2017 and 2018 respectively. These are evidently lower runtimes when compared to the original code which ran in 0.852 and 0.887 seconds for 2017 and 2018 respectively. Therefore, refactoring the script allowed the code to run about 20% faster than the original code. 
 
-The main changes to the original code include adding a tickerindex variable and removing the need for another iterator in the script. The original code for the loop changes from this:
+The main changes to the original code included adding a tickerindex variable and as a result, removing the need for another iterator in the script. The original code for the loop changes from this:
 
 ```
 For j = 2 to RowCount
